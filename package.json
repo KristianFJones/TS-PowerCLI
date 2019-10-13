@@ -1,0 +1,27 @@
+{
+  "name": "ts-powercli",
+  "version": "0.0.1",
+  "description": "ts-vcenter but using node-powershell and powercli",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node Lab.ts"
+  },
+  "keywords": [
+    "vcenter",
+    "powercli",
+    "powershell",
+    "node-powershell"
+  ],
+  "author": "Kristian Jones <me@kristianjones.dev>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "@types/node-powershell": "^3.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "node-powershell": "^4.0.0"
+  }
+}
